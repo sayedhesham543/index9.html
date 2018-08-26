@@ -1,0 +1,461 @@
+body
+{
+    box-sizing:border-box;
+    background-color: white;
+    height: auto;
+    font-family: 'Ravi Prakash', cursive;
+    overflow:;
+}
+
+/*****start overiding bootstrab*****/
+.sa
+{
+    background-color:antiquewhite;
+    margin-bottom:10px;
+    padding:10px;
+    color:darkred;
+    height: 50px;
+}
+/*main nav*/
+.navbar{min-height:70px;margin-bottom: 0px; border-radius: 1%;}
+/*main nav*/
+/*ACTIV LINK*/
+.navbar-inverse .navbar-nav > .active >a,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus{padding-top:25px; padding-bottom: 25px;}
+/*NAVBAR LINK*/
+.navbar-inverse .navbar-nav > li > a
+{
+    color:#D0D0D0;
+    margin:0.5px;
+    padding-top:22.5px;
+    font-size:16px;
+    min-height: 70px;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    background-color: black;
+    transition: background-color 0.5s ease-in-out;
+    padding-top:22.5px;
+    padding-bottom: 27.5px;
+}
+/*BRAND NAME*/
+.navbar-inverse .navbar-brand {color:#BBB; font-size:30px; padding-top: 22.5px;}
+
+.navbar-inverse .navbar-brand span{}
+/*dropdown link*/
+.dropdown-menu {background-color:#333; border-top:3px solid #e41b17; min-width:179px;}
+/*drop down menue*/
+.navbar-right .dropdown-menu{left:0px; right:auto;}
+/*drop down menue*/
+/*navbar toggle*/
+.navbar-toggle {margin-top: 19px;}
+/*navbar toggle*/
+/*start option box */
+.optionbox{position:fixed; top: 78.5px;left:0px;z-index: 9999;}
+.optionbox .coloroption
+{
+    float:left;
+    background: #333;
+    color:#fff;
+    padding:10px;
+    width:200px;
+    display:none;
+}
+.optionbox .coloroption ul li
+{
+    width:20px;
+    height:20px;
+    display: inline-block;
+    margin-right:1px;
+}
+.optionbox .gear-check
+{
+    padding:5px;
+    
+    color:#fff;
+    cursor:pointer;
+}
+/*end option box */
+/* start carousel */
+.carousel-inner > .item > img, .carousel-inner > .item > a > img
+{
+    height: 530px;
+    width:100%;
+}
+.carousel .carousel-caption
+{
+    bottom: 90px;
+    background:rgba(3,3,3,0.2);
+    border-radius:1%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.carousel-caption h1
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+.carousel-indicators
+{
+    bottom: 0px;
+}
+.carousel-indicators li
+{
+    height: 20px;
+    width:20px;
+}
+.carousel-indicators .active
+{
+    height: 22px;
+    width:22px;
+}
+/*drop down link itmes*/
+.navbar-nav > li > .dropdown-menu
+{
+    margin-top: 0px;
+}
+.dropdown-menu > li > a {color:#fff; padding:5px 20px;}
+
+/*drop down link itmes hover*/
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {color:#fff; padding-left:35px; transition: all 0.5s ease;}
+
+.dropdown-menu .divider{background-color:#871818;}
+
+/*****End overiding bootstrab*****/
+/*start sextion toolbox*/
+
+/* START SECTION ABOUT*/
+.about {padding-top:60px; padding-bottom:60px; overflow: hidden;}
+
+.about h1 {font-weight:bold;}
+
+.about h1 span{}
+
+.about lead {color:#888; margin-top: 15px; font-size:25px;}
+
+/* end SECTION ABOUT*/
+/* start SECTION features*/
+.features {background-color:#eee; padding-top: 50px; padding-bottom: 50px; overflow: hidden;}
+
+.features .h1 { font-weight: bold;}
+
+.features .feat {line-height:2em; margin-bottom: 30px;}
+
+.features .feat span.glyphicon {font-size: 22px; margin-bottom: 10px;}
+
+/* end SECTION features*/
+/*start testmonials section*/
+.testimonials {padding-top:50px; padding-bottom: 5px; overflow: hidden;}
+
+.testimonials .h1 {font-weight: bold;}
+
+.testimonials p.lead {line-height: 1.5em; margin-bottom: 10px;}
+
+.testimonials span {font-size:18px; font-weight:bold;}
+
+.testimonials .carousel-inner {min-height: 160px;}
+
+.testimonials .carousel-indicators
+{
+    position:static;
+    width:100%;
+    margin-left: auto;
+    padding-top: 20px;
+    border: 2px solid #fff;
+}
+ .testimonials .carousel-indicators li
+{
+    text-indent: 0;
+    width:80px;
+    height:80px;
+    opacity: 0.5;
+    border-radius: 50%;
+    margin: 5px;
+}
+ .testimonials .carousel-indicators li.active
+{
+    text-indent: 0;
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    opacity: 1;
+    background: none;
+    transition: all 0.5s ease;
+}
+.testimonials .carousel-indicators li img {max-width: 100%; border-radius: 50%;}
+/*endtestmonials section*/
+/*start section price able*/
+.price
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #EEE;
+    margin-bottom:15px;
+    overflow: hidden;
+}
+.price .price-box
+{
+    background-color: white;
+    padding:10px;
+    border:1px solid #ddd;
+    margin-bottom:15px;
+}
+
+.price .price-box h2 {margin:5px 0 015px 0}
+.price .price-box p
+{
+    perspective:300px; 
+    font-size: 30px;
+    font-weight: bold;
+    color:#666;
+    width:100px;
+    height:100px;
+    background: #f3f3f3;
+    border-radius: 50%;
+    line-height: 100px; 
+    border: 2px solid white;
+}
+.price .price-box:hover p{transform: scale(1.1,1.1) rotatez(360deg); border: 2px solid #dfdfdf;}
+.price .price-box ul {line-height: 250%; font-size:18px;}
+
+.price .price-box a {margin-bottom:5px;}
+/*end section price able*/
+/*start section Our team*/
+.ourteam
+{
+    background: url(../imgs/0.22.jpg) no-repeat center center fixed;
+    min-height: 600px;
+}
+.ourteam .team
+{
+    background: rgba(2,2,2,0.7);
+    color:white;
+    min-height: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.ourteam .person {margin-bottom: 40px;}
+/*end section Our team*/
+/*start section subscribe*/
+.subscribe {padding-top: 40px; padding-bottom: 70px; background: #EEE; overflow: hidden;}
+
+.subscribe .h1 {color:#888; letter-spacing: 2px; margin-bottom: 20px;}
+
+.subscribe p {margin-bottom:30px;}
+
+.subscribe .form-control {border-radius:0px; margin-right: -5px; width:250px;}
+
+.subscribe .btn {border-radius:0;}
+
+/*start section .stats*/
+.stats
+{
+    background:url("../imgs/0.30.jpg") no-repeat center center fixed;
+    min-height: 300px;
+    margin-bottom: 30px;
+}
+.ready
+{
+    background-color: rgba(2,2,2,0.7);
+    color: #b6b5b5;
+    min-height:300px;
+    padding-top:40px; 
+    padding-bottom:40px; 
+}
+.stats .stats2{margin-bottom: 30px;}
+
+.stats .stats2:hover {color:white;}
+
+.stats .ready .h1 {margin-bottom:40px;}
+
+.stats p {font-size: 60px; font-weight:bold; margin-bottom: 0px;}
+
+.stats span  {font-size: 20px;}
+/*end section .stats*/
+/*start section Our Skills*/
+.ourskills {padding-top 40px; padding-bottom:40px;}
+
+.ourskills h2 {font-weight: bold; margin-top: 0px; color:#666;}
+
+.ourskills .skills-info p {color:#999;}
+
+.ourskills .progress {height:36px;}
+
+.ourskills .progress .progress-bar
+{
+    line-height: 36px;
+    font-size;15px;
+    font-weight:bold;
+    text-align: left;
+    text-indent:10px;
+}
+/*end section Our Skills*/
+/*start section Our contact us*/
+.contactus
+{
+    background:url("../imgs/img.jpg")no-repeat center center fixed;
+    min-height: 300px;
+    overflow: hidden;
+}
+.contactus .fields
+{
+    background:rgba(9,9,9,0.9);
+    min-height: 300px;
+    color:#ddd;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.contactus p {margin-bottom: 40px;}
+
+.contactus textarea {height: 108px; resize: none;}
+
+.contactus input[type="text"],
+.contactus textarea {background: rgba(82,78,78,0.7); color:#fff; border:none;}
+
+.contactus textarea:hover {background: transparent}
+
+.contactus input[type="text"]:hover {background: transparent}
+
+
+/*end section Our contact us*/
+/*start section Our Clients*/
+.ourclients {background: #eee; padding-top:20px; padding-bottom:20px;}
+
+.ourclients img
+{
+    opacity:0.2;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.ourclients img:hover {opacity:0.7;}
+
+/*end section Our Clients*/
+/*start section Footer*/
+.footer {background-color:#111; color:#aaa;padding-top: 20px;}
+
+.footer a{color: #aaa}
+
+.footer a:hover{color: #FFF}
+
+.footer h3  { letter-spacing: 1px;  text-transform: uppercase; margin:30px 0 20px 0; }
+
+.footer .three-columns {overflow: hidden;}
+
+.footer .three-columns li {width:33.3333%; float:left;}
+
+.footer .sociallist {overflow: hidden; margin-top: 20px;}
+
+.footer .sociallist  li
+{
+    float: left;
+    margin-right:3px;
+    opacity: 0.7;
+}
+
+.footer .sociallist  li:hover {opacity:1;}
+
+.footer .img-thumbnail{background:rgba(0,0,0,0.2);border: 1px solid #444; margin-bottom: 5px;}
+
+.footer .copyright
+{
+    background: #333;
+    color:#aaa;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size:18px;
+}
+.footer .copyright span{}
+/*end section footer*/
+/*start section loading*/
+.overlay
+{
+    background: #222;
+    color:white;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index: 99999;
+}
+.spinner {
+    margin: 300px auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+
+    -webkit-animation: sk-rotate 2.0s infinite linear;
+    animation: sk-rotate 2.0s infinite linear;
+}
+
+.dot1, .dot2 {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    border-radius: 100%;
+
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.dot2 {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+/*end section loading*/
+/*start scroll up*/
+#scroll-top
+{
+    width:50px;
+    height:50px;
+    background-color: #272727;
+    text-align: center;
+    position: fixed;
+    right:15px;
+    bottom:2px;
+    z-index: 9999;
+    cursor: pointer;
+}
+#scroll-top:hover {background-color:#444;}
+/*end scroll up*/
+/*start grouping*/
+.contactus, .stats, .ourteam  {background-size: cover}
+
+.features .h1, 
+.testimonials .h1, 
+.price .h1, 
+.ourteam .h1,
+.ourskills .h1 {margin-bottom:50px;}
+
+.testimonials .carousel-indicators li,
+.footer .sociallist  li,
+.price .price-box p,
+.ourclients img,
+.stats .stats2
+{transition: all 0.7s ease;}
+/*end grouping*/

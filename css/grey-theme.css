@@ -1,0 +1,40 @@
+/*start default theme*/
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.navbar-inverse .navbar-nav > .active >a,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.carousel-indicators .active,
+.optionbox .gear-check
+{
+    background-color:darkslategrey;
+}
+
+.navbar-inverse .navbar-brand span,
+.about h1 span,
+.features .feat span.glyphicon,
+.testimonials span,
+.ourskills h1,
+#scroll-top,
+.footer h3,
+.footer .copyright span
+{
+    color:darkslategrey;
+}
+.dropdown-menu,
+
+{
+    border-top:3px solid darkslategrey;
+}
+.testimonials .carousel-indicators li.active
+{
+    border:3px solid darkslategrey;
+}
+
+.optionbox .coloroption
+{
+    border:2px solid darkslategrey;
+}
+
